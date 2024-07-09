@@ -1,0 +1,100 @@
+a{
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+.logo{
+    padding: 10px 5px;
+    height: 50px;
+    float: left ;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 1%;
+}
+
+ul{
+    
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+li{
+    line-height: 30px;
+    float: right;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight:500;
+    list-style: none;
+    
+ 
+}
+
+li :hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+
+.text{
+    line-height: 1;
+    margin-bottom: 5%;
+}
+
+.navbar{
+    background-color: rgba(22, 71, 24, 0.6);
+    width: auto;
+    height: 35%;
+    border-bottom: #079d32;
+}
+
+body{
+    width: 100%;
+    background-image: url(../images/banner_slider_grass.jpg);
+    background-position: center;
+    height:40vh;
+    padding-top: 0px;
+    padding-left: 37px;
+    padding-right: 36px;
+   
+
+    background-repeat: no-repeat;
+    
+    }
+
+    #content{
+        background-color: white;
+        height: 100vh;
+        width: 100vh;
+    }
+
+    #highlight{    
+        width: 500px;       
+        margin-left: 30%;
+        margin-top: -5%;
+        background: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+        gap: 2px;
+        position: absolute;
+        text-align: center;   
+        /* White */
+        background: #FFFFFF;
+        border-radius: 16px;
+    }
+
+.text{
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+}
