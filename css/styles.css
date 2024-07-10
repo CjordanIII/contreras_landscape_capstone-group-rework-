@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #cards {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -17,10 +18,21 @@ body {
   background-color: rgba(34, 205, 34, 0.649);
   color: whitesmoke;
   padding: 3% 0 3% 3%;
+=======
+
+*{
+    font-family: Arial;
+}
+
+body {
+    background-color: #ffffff;
+    width: 100%;
+>>>>>>> dev_branch
 }
 
 p {
   font-size: 18px;
+<<<<<<< HEAD
 }
 
 .carousel-item {
@@ -68,3 +80,71 @@ body {
 .invalid-feedback {
   color: yellow;
 }
+=======
+}
+
+
+/*NAV CSS*/
+
+img{
+    margin-left: 30%;
+    margin-top: -6%;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    float: right;
+  }
+  
+  .logo{
+    
+    height: 30px;
+    float: left ;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  
+  }
+  
+  ul{
+  
+    list-style: none;
+    float: right;
+    display: flex;
+  
+    
+  }
+  
+  li{
+  
+    float: right;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight:500;
+    list-style: none;
+    margin-bottom: -5%  ;
+    margin-left: -5%;
+    
+  }
+  
+  li :hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+  }
+  
+  
+  .text{
+    
+    margin-bottom: 5%;
+  }
+  
+  .navbar{
+    background-color: #158704ef;
+    width: auto;
+    height: 160px;
+  
+  }
+  
+  
+>>>>>>> dev_branch
