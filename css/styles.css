@@ -1,70 +1,78 @@
-#cards {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(110, 222, 61, 0.5)),
-        url(/images/forest_tree_random.jpg);
 
+*{
+    font-family: Arial;
 }
 
 body {
-    background-color: #295dab;
-}
-
-.paragraphs {
-    background-color: rgba(34, 205, 34, 0.649);
-    color: whitesmoke;
-    padding: 3% 0 3% 3%;
+    background-color: #ffffff;
+    width: 100%;
 }
 
 p {
-    font-size: 18px;
-}
-
-.carousel-item {
-    height: 500px;
-
-}
-
-.login-form {
-    color: black;
-    padding: 10px 10px 10px 10px;
-}
-
-.register_form {
-    color: black;
+  font-size: 18px;
 }
 
 
-.card-body {
-    color: black;
-}
+/*NAV CSS*/
 
-.col {
-    padding: 20px 50px 20px 50px;
-}
-
-.card-img-top {
-    width: 100%;
-    height: 18vw;
-    object-fit: cover;
-}
-
-.table {
-    border: 3px solid black;
-    width: 63rem;
-    margin-left: 160px;
-    margin-top: 50px;
-
-}
-
-body {
+img{
+    margin-left: 30%;
+    margin-top: -6%;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    float: right;
+  }
+  
+  .logo{
+    
+    height: 30px;
+    float: left ;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+  
+  }
+  
+  ul{
+  
+    list-style: none;
+    float: right;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: space-between;
-    margin: 0;
-}
-
-.invalid-feedback {
-    color: yellow;
-}
+  
+    
+  }
+  
+  li{
+  
+    float: right;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight:500;
+    list-style: none;
+    margin-bottom: -5%  ;
+    margin-left: -5%;
+    
+  }
+  
+  li :hover{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 5px;
+  }
+  
+  
+  .text{
+    
+    margin-bottom: 5%;
+  }
+  
+  .navbar{
+    background-color: #158704ef;
+    width: auto;
+    height: 160px;
+  
+  }
+  
+  
