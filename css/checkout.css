@@ -115,3 +115,19 @@ body {
 .footer .spacing {
     margin-top: 1rem;
 }
+
+.btn-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
+
+.btn-custom img {
+    height: 30px;
+    width: auto;
+}
+
+.btn-dark-custom img {
+    height: 40px;
+}
