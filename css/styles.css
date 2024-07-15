@@ -1,4 +1,5 @@
 
+
 *{
     font-family: Arial;
 }
@@ -6,73 +7,56 @@
 body {
     background-color: #ffffff;
     width: 100%;
+
 }
 
 p {
   font-size: 18px;
+
 }
 
+.carousel-item {
+  height: 500px;
+}
 
-/*NAV CSS*/
+.login-form {
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
 
-img{
-    margin-left: 30%;
-    margin-top: -6%;
-  }
-  a{
-    text-decoration: none;
-    color: white;
-    float: right;
-  }
-  
-  .logo{
-    
-    height: 30px;
-    float: left ;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-  
-  }
-  
-  ul{
-  
-    list-style: none;
-    float: right;
-    display: flex;
-  
-    
-  }
-  
-  li{
-  
-    float: right;
-    padding: 30px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight:500;
-    list-style: none;
-    margin-bottom: -5%  ;
-    margin-left: -5%;
-    
-  }
-  
-  li :hover{
-    background-color: rgba(0,0,0,0.3);
-    border-radius: 5px;
-  }
-  
-  
-  .text{
-    
-    margin-bottom: 5%;
-  }
-  
-  .navbar{
-    background-color: #158704ef;
-    width: auto;
-    height: 160px;
-  
-  }
-  
-  
+.register_form {
+  color: black;
+}
+
+.card-body {
+  color: black;
+}
+
+.col {
+  padding: 20px 50px 20px 50px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 18vw;
+  object-fit: cover;
+}
+
+.table {
+  border: 3px solid black;
+  width: 63rem;
+  margin-left: 160px;
+  margin-top: 50px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.invalid-feedback {
+  color: yellow;
+}

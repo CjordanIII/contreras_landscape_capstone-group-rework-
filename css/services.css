@@ -61,3 +61,43 @@
 .footer .spacing {
   margin-top: 1rem;
 }
+
+/* Nav bar css */
+.navbar {
+  background-color: #158704ef;
+  width: auto;
+  height: 160px;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  display: flex;
+}
+
+li {
+  float: right;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  list-style: none;
+  margin-bottom: -5%;
+  margin-left: -3%;
+}
+
+li :hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+
+.logo-img-a {
+  margin-left: 30%;
+  margin-top: -6%;
+}
