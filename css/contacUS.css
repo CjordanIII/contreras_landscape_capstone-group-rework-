@@ -75,11 +75,15 @@ body {
 
 .card {
     margin: auto;
-    background-color: #2DA884;
+
+
+    background-color: #228b22;
 }
 
 code {
-    color: #2DA884;
+    color: #228b22;
+
+
 }
 
 #contactUsForm {
@@ -144,15 +148,19 @@ code {
 }
 
 #contactPhone{
-    color: #2DA884;
+
+
+    color: #228b22;
 }
 
 #contactEmail {
-    color: #2DA884;
+    color: #228b22;
 }
 
 #contactHours {
-    color: #2DA884;
+    color: #228b22;
+
+
 }
 
 #mondayToFTime {
