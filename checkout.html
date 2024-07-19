@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Checkout page</title>
@@ -13,6 +14,7 @@
 <body>
 
     <header>
+
 
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #158704ef;">
            
@@ -40,6 +42,7 @@
                     </ul>
                 </div>
             </div>
+
         </nav>
     </header>
 
@@ -50,9 +53,7 @@
                     <div class="card mb-3">
                         <div class="card-header bg-light text-dark d-flex justify-content-center">
 
-
                             <img src="./images/logogreen.png" alt="main logo" class="img-fluid" style="height: 100px;">
-
 
                         </div>
                         <div class="card-body">
@@ -61,7 +62,8 @@
                                     <img src="./images/ShopPay - White.png" alt="Shop Pay White Logo">
                                 </button>
                                 <button class="btn btn-dark btn-lg btn-custom btn-dark-custom">
-                                    <img src="./images/7123945_logo_pay_google_gpay_icon (2).png" alt="GPay Logo" style="height: 95px;">
+                                    <img src="./images/7123945_logo_pay_google_gpay_icon (2).png" alt="GPay Logo"
+                                        style="height: 95px;">
                                 </button>
                             </div>
                             <hr class="my-4">
@@ -129,47 +131,49 @@
                                 </div>
                                 <div class="d-grid">
 
-                                    <button class="btn btn-success btn-lg btn-custom" type="submit" style="background-color: #158704ef;">Review Order</button>
-
+                                    <button class="btn btn-success btn-lg btn-custom" type="submit"
+                                        style="background-color: #158704ef;">Review Order</button>
+                                </div>
 
                             </form>
                         </div>
                     </div>
                 </div>
-                <!-- Order Summary -->
+                <!-- Order Summary and Payment Details -->
                 <div class="col-lg-5">
-                    <div class="card mb-3">
-                        <div class="card-body">
-                            <h6>Order Summary</h6>
-                            <div>
-                                <p>Services</p>
+                    <div class="order-summary mb-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6>Order Summary</h6>
+                                <div>
+                                    <p>Services</p>
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <p class="text-muted mb-0">Grass Installations</p>
+                                            <small>July 24th, 2024 9:00 AM</small>
+                                        </div>
+                                        <p class="mb-0 text-end">$850.00</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between mt-2">
+                                        <div>
+                                            <p class="text-muted mb-0">Rock Installations</p>
+                                            <small>July 25th, 2024 9:00 AM</small>
+                                        </div>
+                                        <p class="mb-0 text-end">$745.00</p>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Discount code or gift card">
+                                    <button class="btn btn-outline-secondary mt-2">Apply</button>
+                                </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
-                                        <p class="text-muted mb-0">Grass Installations</p>
-                                        <small>July 24th, 2024 9:00 AM</small>
-                                    </div>
-                                    <p class="mb-0 text-end">$850.00</p>
+                                    <p>Total</p>
+                                    <p class="font-weight-bold">$1595.00</p>
                                 </div>
-                                <div class="d-flex justify-content-between mt-2">
-                                    <div>
-                                        <p class="text-muted mb-0">Rock Installations</p>
-                                        <small>July 25th, 2024 9:00 AM</small>
-                                    </div>
-                                    <p class="mb-0 text-end">$745.00</p>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <input type="text" class="form-control" placeholder="Discount code or gift card">
-                                <button class="btn btn-outline-secondary mt-2">Apply</button>
-                            </div>
-                            <div class="d-flex justify-content-between">
-                                <p>Total</p>
-                                <p class="font-weight-bold">$1595.00</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Payment Details -->
-                    <div class="card">
+                    <div class="payment-details card">
                         <div class="card-body">
                             <h6>Payment Details</h6>
                             <div class="mb-3">
@@ -192,9 +196,8 @@
                             </div>
                             <div class="d-grid">
 
-
-                                <button class="btn btn-success btn-lg btn-custom" type="submit" style="background-color: #158704ef;" type="submit">Pay Now</button>
-
+                                <button class="btn btn-success btn-lg btn-custom" type="submit"
+                                    style="background-color: #158704ef;">Pay Now</button>
 
                             </div>
                         </div>
@@ -222,32 +225,20 @@
                     </button>
                 </form>
             </div>
-       <div class="links spacing">
-          <a href="commingsoon.html" class="text-white text-decoration-none"
-            >Privacy</a
-          >
-          <a href="commingsoon.html" class="text-white text-decoration-none"
-            >Terms</a
-          >
-          <a href="commingsoon.html" class="text-white text-decoration-none"
-            >Support</a
-          >
-          <a href="commingsoon.html" class="text-white text-decoration-none"
-            >About Us</a
-          >
-          <a href="services.html" class="text-white text-decoration-none"
-            >Services</a
-          >
-          <a href="contact.html" class="text-white text-decoration-none"
-            >Contact</a
-          >
+            <div class="links spacing">
+                <a href="commingsoon.html" class="text-white text-decoration-none">Privacy</a>
+                <a href="commingsoon.html" class="text-white text-decoration-none">Terms</a>
+                <a href="commingsoon.html" class="text-white text-decoration-none">Support</a>
+                <a href="commingsoon.html" class="text-white text-decoration-none">About Us</a>
+                <a href="services.html" class="text-white text-decoration-none">Services</a>
+                <a href="contact.html" class="text-white text-decoration-none">Contact</a>
+            </div>
+            <div class="spacing">
+                <p class="mb-0">
+                    &copy; 2020-2024 Contreras Landscaping & Tree Service
+                </p>
+            </div>
         </div>
-        <div class="spacing">
-          <p class="mb-0">
-            &copy; 2020-2024 Contreras Landscaping & Tree Service
-          </p>
-        </div>
-      </div>
     </footer>
 
     <!-- Include Bootstrap JS -->
@@ -258,7 +249,5 @@
         integrity="sha384-uwf1AA2JiYmFRqgUD8zv8UxFnXbs2Vgdi2N2LGn0I1JloOqmb0I5BLSyl4KivSI2" crossorigin="anonymous">
         </script>
 </body>
-
-
 
 </html>

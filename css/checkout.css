@@ -1,33 +1,17 @@
 /*NAV CSS*/
-
-
-a {
-    text-decoration: none;
-    color: white;
-    float: right;
-}
-
-.logo {
-
-    height: 30px;
-    float: left;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-
+.navbar {
+    background-color: #158704ef;
+    width: auto;
+    height: 160px;
 }
 
 ul {
-
     list-style: none;
     float: right;
     display: flex;
-
-
 }
 
 li {
-
     float: right;
     padding: 30px;
     text-decoration: none;
@@ -36,7 +20,6 @@ li {
     list-style: none;
     margin-bottom: -5%;
     margin-left: -3%;
-
 }
 
 li :hover {
@@ -44,27 +27,24 @@ li :hover {
     border-radius: 5px;
 }
 
-
-.text {
-
-    margin-bottom: 5%;
+a {
+    text-decoration: none;
+    color: white;
+    float: right;
 }
 
-.navbar {
-    background-color: rgba(22, 71, 24, 0.6);
-    width: auto;
-    height: 160px;
-
+.logo-img-a {
+    margin-left: 30%;
+    margin-top: -6%;
 }
 
-p {
-    font-size: 18px;
-}
+
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    width: 100%;
     justify-content: space-between;
     margin: 0;
 }
@@ -132,4 +112,12 @@ body {
 .btn-dark-custom img {
     height: 40px;
 
+}
+
+.order-summary {
+    margin-left: 100px;
+}
+
+.payment-details {
+    margin-left: 100px;
 }
